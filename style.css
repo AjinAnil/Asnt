@@ -1,0 +1,216 @@
+
+.p{
+  position: fixed;
+  top: 40%;
+  right: 0px;
+}
+.p img{
+  width: 50px;
+  height: 250px;
+  border-radius: 8px;
+}
+
+.nav-container{
+ 
+    max-width: 1180px;
+    height: 140px;
+}
+
+.carousel{
+    max-width: 1140px;
+
+}
+.a1{
+  display: flex;
+  justify-content: center;
+  max-width: 1060px;
+  height: 300px;
+  background-color: beige;
+}
+.logo{
+  width: 100px;
+  height: 110px;
+}
+
+.asi{
+width: 550px;
+height: 250px;
+
+}
+.astext{
+  text-align:center;
+  font-weight: 300;
+    font-family:'Montserrat', sans-serif;
+    font-size: 2.188em
+}
+.asi p{
+  text-align: center;
+  font-family:sans-serif;
+  font-size: large;
+}
+
+
+.container{
+  max-width: 1180px;
+}
+.row{
+  width:auto;
+}
+.card{
+  border: white;
+  border-radius: 0px;
+}
+.why{
+  background-color: #F3F8FF;
+}
+.asia{
+  color: #2E3192;
+}
+
+
+/* women */
+/* ----------- */
+
+
+.women{
+  position: relative;
+}
+.w-text{
+  position: absolute;
+  top: 9%;
+  left: 7%;
+}
+.search{
+ 
+  width: 86%;
+  height: 150px;
+  position: absolute;
+  left: 7%;
+  top: 57%;
+}
+form input{
+  color: rgba(107, 115, 130, 0.741);
+  padding-left: 20px;
+  border: 0.5px solid ;
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  font-size:  25px;
+}
+.captcha{
+  position: absolute;
+  left: 7%;
+  top: 70%;
+  width: 280px;
+  height: 56px; 
+  border: 1px solid black;
+}
+
+.check{
+  width: 25px;
+  height: 25px;
+}
+.cap img{
+  width: 20px;
+  height: 20px;
+}
+
+.booking{
+  width: 86%;
+
+}
+.booking input{
+  position: absolute;
+  left: 7%;
+  top: 80%;
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ED008C ;
+  color: white;
+  font-size: larger;
+  font-weight: 800;
+}
+
+
+
+/* ------------------------------ */
+
+.footer{
+  background-color: #F3F8FF;
+}
+.f1{
+  background-color: #F3F8FF;
+  height: 185px;
+}
+.f2{
+  background-color: #F3F8FF;
+  height: 300px;
+}
+.c{
+  background-color: #F3F8FF;
+}
+.ca p{
+  line-height:  0.5;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1023px){
+
+  .logo{
+    width: 80px;
+    height: 90px;
+  }
+  .asi {
+    width: auto;
+    height: auto;;
+  }
+  .p12{
+    font-size: 5px;
+    color: aqua;
+  }
+  .p22{
+    font-size: 5px;
+    color: chartreuse;
+  }
+
+}
+@media only screen and (max-width: 992px){
+  .f3{
+    text-align: center;
+  }
+  .footer{
+    height: 600px;
+  }
+  .last{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .l3{
+    padding-left: 0px;
+    text-align: center;
+  }
+  .l1{
+    text-align: center;
+  }
+  .booking input{
+    width: 86;
+  }
+
+
+}
+
+
+
+
